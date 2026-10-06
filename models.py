@@ -4,7 +4,7 @@ class MenuItem(BaseModel):
     id:int
     name:str
     category:str
-    price:int
+    cost:int
     description:str
     available:bool
 
